@@ -15,9 +15,9 @@ __all__ = ( dE.__all__
             + dTanh.__all__
             + dSoftMax.__all__
             + dSigmoid.__all__
-            + d.Relu.__all__
-            + d.Log.__all__
-            + d.Tan.__all__
+            + dRelu.__all__
+            + dLog.__all__
+            + dTan.__all__
             )
 
 
