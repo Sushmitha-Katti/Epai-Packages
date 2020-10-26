@@ -1,7 +1,7 @@
 import math
 __all__ = ['e']
-def e():
+def e(x:float) -> float:
     """
-    returns e value
+    calculates e^x for a given x
     """
-    return math.e
+    return math.exp(x)

@@ -1,7 +1,7 @@
 #Relu.py
 import math
 __all__ = ['relu']
-def relu(x):
+def relu(x:float) -> float:
     """
     returns relu(x) for a given x
     """

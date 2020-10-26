@@ -1,8 +1,11 @@
 #Cos.py
 import math
+
 __all__ = ['cos']
-def cos(x):
+
+def cos(x:float) -> float :
     """
-    returns tanh(x) for a given x
+    returns cos(x) for a given x
+    x should be in radians
     """
     return math.cos(x)
