@@ -9,6 +9,8 @@ from .Relu import *
 from .Log import *
 from .Tan import *
 
+from calculator.utils import print_func
+
 
 __all__ = ( E.__all__ 
             + Sin.__all__

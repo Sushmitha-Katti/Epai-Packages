@@ -1,23 +1,16 @@
 
-from .dE import *
-from .dSin import *
-from .dCos import *
-from .dTanh import *
-from .dSoftMax import *
-from .dSigmoid import *
-from .dRelu import *
-from .dLog import *
-from .dTan import *
 
-__all__ = ( dE.__all__ 
-            + dSin.__all__
-            + dCos.__all__
-            + dTanh.__all__
-            + dSoftMax.__all__
-            + dSigmoid.__all__
-            + dRelu.__all__
-            + dLog.__all__
-            + dTan.__all__
+from ..E import de
+from ..Sin import dsin
+from ..Cos import dcos
+from ..Tanh import dtanh
+from ..SoftMax import dsoftmax
+from ..Sigmoid import dsigmoid
+from ..Relu import drelu
+from ..Log import dlog
+from ..Tan import dtan
+
+__all__ = ( 'de', 'dsin', 'dcos', 'dtanh', 'dsoftmax', 'dsigmoid' , 'drelu', 'dlog', 'dtan'
             )
 
 
