@@ -1,4 +1,4 @@
-# Session12 Packages
+# Session12 - Packages
 
 Packages are modules, but modules are not necessarily be a package.
 Packages can contain modules, sub packages as well
@@ -24,8 +24,8 @@ Build a calculator package that has separate module for:
 1. ### Code Structure
 
 
-.
-├── __init__           
+calculator
+├── init         
 ├── Cos                        
 ├── E   
 ├── Log         
@@ -36,7 +36,7 @@ Build a calculator package that has separate module for:
 ├── Tan          
 ├── Tanh
 ├── derivaties                 
-│   ├── __init__
+│   ├──init
 │   ├── DCos          
 │   ├── DE   
 │   ├── DLog         
