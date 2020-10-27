@@ -24,7 +24,7 @@ Build a calculator package that has separate module for:
 1. ### Code Structure
 
 
-calculator
+.
 ├── __init__           
 ├── Cos                        # All the fucntions lies here
 ├── E   
