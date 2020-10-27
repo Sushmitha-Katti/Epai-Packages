@@ -30,30 +30,24 @@ Build a calculator package that has separate module for:
 ├── E   
 ├── Log         
 ├── Relu 
-├── Sigmoid          
-├── Sin  
+├── Sigmoid    
+├── Sin 
 ├── SoftMax          
-├── Tan           
+├── Tan          
 ├── Tanh
-├── derivaties                  
+├── derivaties                 
 │   ├── __init__
 │   ├── DCos          
 │   ├── DE   
 │   ├── DLog         
 │   ├── DRelu 
-│   ├── DSigmoid          
+│   ├── DSigmoid       
 │   ├── DSin  
 │   ├── DSoftMax          
 │   ├── DTan           
 │   └── DTanh     
             
-.
-    ├── ...
-    ├── test                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
-    └── ...            
+   
  
 2. ### Usage
     ```python
