@@ -115,6 +115,10 @@ calculator
     9. drelu(x) 1 if x>0 else 0
     10 dsoftmax(x:list)  = softmax(i) * (1- softmax(i)) if i=j else -softmax(i) * softmax(j)
     
+5. ### **References**
+    1. [Derivative of Softmax formula](https://www.mldawn.com/the-derivative-of-softmaxz-function-w-r-t-z/)
+    2. [Derivative of softmax code](https://medium.com/@aerinykim/how-to-implement-the-softmax-derivative-independently-from-any-loss-function-ae6d44363a9d)
+    
 
 
  
