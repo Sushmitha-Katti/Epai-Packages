@@ -26,7 +26,7 @@ Build a calculator package that has separate module for:
 
 .
 ├── __init__           
-├── Cos                        # All the fucntions lies here
+├── Cos                        
 ├── E   
 ├── Log         
 ├── Relu 
@@ -35,7 +35,7 @@ Build a calculator package that has separate module for:
 ├── SoftMax          
 ├── Tan           
 ├── Tanh
-├── derivaties                  # derivatives of the functions lies here
+├── derivaties                  
 │   ├── __init__
 │   ├── DCos          
 │   ├── DE   
@@ -45,7 +45,15 @@ Build a calculator package that has separate module for:
 │   ├── DSin  
 │   ├── DSoftMax          
 │   ├── DTan           
-│   └── DTanh                 
+│   └── DTanh     
+            
+.
+    ├── ...
+    ├── test                    # Test files (alternatively `spec` or `tests`)
+    │   ├── benchmarks          # Load and stress tests
+    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+    │   └── unit                # Unit tests
+    └── ...            
  
 2. ### Usage
     ```python
