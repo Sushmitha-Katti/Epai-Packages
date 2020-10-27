@@ -25,19 +25,15 @@ Build a calculator package that has separate module for:
 
 ```
 calculator
-├── derivaties                 
-│   ├──__init__
-│   ├── DCos          
-│   ├── DE   
-│   ├── DLog         
-│   ├── DRelu 
-│   ├── DSigmoid       
-│   ├── DSin  
-│   ├── DSoftMax          
-│   ├── DTan           
-│   └── DTanh   
-├── __init__         
-├── Cos               
+├── derivaties  # Can import the derivatives from here
+│   ├──__init__  # the import logic is here
+│ 
+├── utils 
+│   ├──__init__       
+│   └── print_f  # print decorator for printing the return value in every functions
+│ 
+├── __init__    # imports only functions not derivatives     
+├── Cos        # contains both function and derivatives        
 ├── E
 ├── Log
 ├── Relu
@@ -114,6 +110,7 @@ calculator
     8. dsigmoid(x) = sigmoid(x)(1-sigmoid(x))
     9. drelu(x) 1 if x>0 else 0
     10 dsoftmax(x:list)  = softmax(i) * (1- softmax(i)) if i=j else -softmax(i) * softmax(j)
+   
     
 5. ### **References**
     1. [Derivative of Softmax formula](https://www.mldawn.com/the-derivative-of-softmaxz-function-w-r-t-z/)
