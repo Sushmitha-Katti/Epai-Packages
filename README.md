@@ -25,16 +25,6 @@ Build a calculator package that has separate module for:
 
 
 calculator
-├── init         
-├── Cos                        
-├── E   
-├── Log         
-├── Relu 
-├── Sigmoid    
-├── Sin 
-├── SoftMax          
-├── Tan          
-├── Tanh
 ├── derivaties                 
 │   ├──init
 │   ├── DCos          
@@ -45,7 +35,18 @@ calculator
 │   ├── DSin  
 │   ├── DSoftMax          
 │   ├── DTan           
-└── └── DTanh    
+│   └── DTanh   
+├── init         
+├── Cos                        
+├── E   
+├── Log         
+├── Relu 
+├── Sigmoid    
+├── Sin 
+├── SoftMax          
+├── Tan          
+└──Tanh
+ 
 
 
             
