@@ -45,7 +45,9 @@ calculator
 │   ├── DSin  
 │   ├── DSoftMax          
 │   ├── DTan           
-│   └── DTanh     
+└── └── DTanh    
+
+
             
    
  
